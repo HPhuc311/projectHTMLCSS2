@@ -413,45 +413,45 @@ a {
     transition: 0.5s;
 }
 
-.work-item:hover{
+.work-item:hover {
     transform: translateY(-10px);
     border-color: #2E80CE;
 }
 
-.work-item:hover .work-item__more{
+.work-item:hover .work-item__more {
     color: #2E80CE;
 }
 
 /* FEATURE */
-.feature{
+.feature {
     margin-top: 85px;
     padding: 85px;
 }
 
-.feature__inner{
+.feature__inner {
     display: flex;
     align-items: center;
     gap: 130px;
 }
 
-.feature__media{
+.feature__media {
     width: 48%;
 }
 
-.feature__images{
+.feature__images {
     position: relative;
     padding-bottom: 121px;
     padding-right: 58px;
 }
 
-.feature__img{
+.feature__img {
     width: 512px;
     height: 370px;
     border-radius: 6px;
     object-fit: cover;
 }
 
-.feature__img:last-child{
+.feature__img:last-child {
     width: 332px;
     height: 370px;
     position: absolute;
@@ -459,11 +459,93 @@ a {
     bottom: 0;
 }
 
-.feature__cta{
+.feature__cta {
     margin-top: 38px;
 }
 
-.feature__content .section-desc{
+.feature__content .section-desc {
     text-align: left;
 }
 
+/* MEMBER */
+.member {
+    padding: 85px 0;
+}
+
+.member__header {
+    text-align: center;
+}
+
+.member__cta {
+    margin-top: 38px;
+}
+
+.member__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.member-item {
+    text-align: center;
+}
+
+.member-item__img-bg {
+    display: flex;
+    border-radius: 6px;
+    padding-top: 28px;
+    background-color: #EAF6FF;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.member-item__thumb {
+    display: block;
+    max-width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.member-item{
+    text-align: center;
+}
+
+.member-item__name {
+    font-weight: 500;
+    margin-top: 12px;
+    font-style: 1.6rem;
+    line-height: 1.75;
+    color: #10375C;
+}
+
+.member-item__title {
+    color: #575F66;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8;
+    /* 185.714% */
+}
+
+.member__control{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    column-gap: 18px;
+}
+
+.member__control-btn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    outline: none;
+    background-color: #fff;
+    transition: all 0.25s;
+}
+
+.member__control-btn:hover{
+    background-color: #2E80CE;
+    color: #FFFFFF;
+}
